@@ -3,7 +3,7 @@ class Time:
        
     attributes: hour, minute, second
     """
-    def __init__(self, hour=0, minute=0, second=0):
+    def __init__():
         """Initializes a time object.
 
         hour: int
@@ -20,13 +20,13 @@ class Time:
 
     def time_to_int(self):
         """Computes the number of seconds since midnight."""
-        minutes = self.hour * 60 + self.minute
+        minutes = self.hour * + self.minute
         seconds = minutes * 60 + self.second
         return seconds
 
     def print_time(self):
         """Prints a string representation of the time."""
-        print(str(self))
+        print((self))
 
     def is_after(self, other):
         """Returns True if t1 is after t2; false otherwise."""
